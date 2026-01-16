@@ -10,7 +10,7 @@ const LeMans95 = () => {
 
             <div className="lemans-hero">
                 <div className="hero-bg-wrapper">
-                    <img src="/assets/history-lemans.png" alt="McLaren F1 GTR #59" />
+                    <img src="/lanzante/assets/history-lemans.png" alt="McLaren F1 GTR #59" />
                     <div className="hero-overlay"></div>
                 </div>
 

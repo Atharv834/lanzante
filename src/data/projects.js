@@ -4,7 +4,7 @@ export const projectsData = [
         name: 'McLaren P1 GTR-18',
         tagline: 'The Ultimate Tribute',
         category: 'road',
-        image: '/assets/project-p1-gtr18.png',
+        image: '/lanzante/assets/project-p1-gtr18.png',
         description: 'A road-legal reimagining of the P1 GTR, paying homage to the F1 GTR Longtail. Featuring bespoke bodywork, extended rear deck, and the iconic Lark livery tribute. Limited to just 6 examples worldwide.',
         specs: [
             { label: 'Engine', value: '3.8L Twin-Turbo V8 + Hybrid' },
@@ -18,7 +18,7 @@ export const projectsData = [
         name: 'Porsche 930 TAG Turbo',
         tagline: 'F1 Power. Road Legal.',
         category: 'commissions',
-        image: '/assets/project-tag-turbo.png',
+        image: '/lanzante/assets/project-tag-turbo.png',
         description: 'A marriage of a Porsche 930 chassis with a genuine 1.5L V6 TAG-Porsche Formula 1 engine, as used by McLaren in the 1980s. Each car features a race-used engine from the golden era of F1.',
         specs: [
             { label: 'Engine', value: '1.5L V6 TAG TTE PO1' },
@@ -32,7 +32,7 @@ export const projectsData = [
         name: 'Porsche 935 Road',
         tagline: 'Track Icon Unleashed',
         category: 'road',
-        image: '/assets/project-935.png',
+        image: '/lanzante/assets/project-935.png',
         description: 'The modern Porsche 935, originally a track-only exclusive, converted for road use by Lanzante. Featuring aggressive aero, retro-styling, and the performance of the GT2 RS underneath.',
         specs: [
             { label: 'Engine', value: '3.8L Twin-Turbo Flat-6' },

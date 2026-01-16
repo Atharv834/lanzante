@@ -70,19 +70,19 @@ const HistoricMotorsport = () => {
                             number="01"
                             title="Restoration"
                             description="We return historic racing machines to their period-correct glory. Every bolt, every panel, every component is researched and restored with obsessive attention to detail, ensuring historical accuracy while maintaining competitive performance."
-                            image="/assets/project-tag-turbo.png"
+                            image="/lanzante/assets/project-tag-turbo.png"
                         />
                         <ServiceItem
                             number="02"
                             title="Race Preparation"
                             description="Our cars don't just sit in museums; they race. We prepare vehicles for Goodwood, Le Mans Classic, and the world's most prestigious historic events. Our track-side support ensures that both car and driver perform at their peak."
-                            image="/assets/service-performance.png"
+                            image="/lanzante/assets/service-performance.png"
                         />
                         <ServiceItem
                             number="03"
                             title="Collection Management"
                             description="Complete curation services for the world's most significant private collections. From routine maintenance to global logistics, we handle the complexities of ownership so you can focus on driving."
-                            image="/assets/service-legacy.png"
+                            image="/lanzante/assets/service-legacy.png"
                         />
                     </section>
 

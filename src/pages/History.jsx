@@ -28,7 +28,7 @@ const History = () => {
             <div className="history-hero">
                 <RainEffect />
                 <div className="hero-bg-wrapper">
-                    <img src="/assets/history-lemans.png" alt="1995 Le Mans" />
+                    <img src="/lanzante/assets/history-lemans.png" alt="1995 Le Mans" />
                     <div className="hero-overlay"></div>
                 </div>
 

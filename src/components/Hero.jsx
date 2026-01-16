@@ -1,30 +1,30 @@
 import '../index.css';
 
 const Hero = () => {
-    return (
-        <section className="hero">
-            <div className="hero-overlay"></div>
-            <div className="container hero-content">
-                <h1 className="hero-title animate-fade-in-up">
-                    <div>LEGACY.</div>
-                    <div>PERFORMANCE.</div>
-                    <div className="text-gold">BESPOKE.</div>
-                </h1>
+  return (
+    <section className="hero">
+      <div className="hero-overlay"></div>
+      <div className="container hero-content">
+        <h1 className="hero-title animate-fade-in-up">
+          <div>LEGACY.</div>
+          <div>PERFORMANCE.</div>
+          <div className="text-gold">BESPOKE.</div>
+        </h1>
 
-                <div className="hero-actions animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-                    <a href="#services" className="btn btn-primary">Discover</a>
-                    <a href="#contact" className="btn btn-secondary">Inquire</a>
-                </div>
-            </div>
+        <div className="hero-actions animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          <a href="#services" className="btn btn-primary">Discover</a>
+          <a href="#contact" className="btn btn-secondary">Inquire</a>
+        </div>
+      </div>
 
-            <style>{`
+      <style>{`
         .hero {
           position: relative;
           height: 100vh;
           width: 100%;
           display: flex;
           align-items: center;
-          background-image: url('/assets/hero-bg.png');
+          background-image: url('/lanzante/assets/hero-bg.png');
           background-size: cover;
           background-position: center;
           overflow: hidden;
@@ -109,8 +109,8 @@ const Hero = () => {
           }
         }
       `}</style>
-        </section>
-    );
+    </section>
+  );
 };
 
 export default Hero;

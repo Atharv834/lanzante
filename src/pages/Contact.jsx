@@ -287,7 +287,7 @@ const Contact = () => {
                 .map-bg {
                     width: 100%;
                     height: 100%;
-                    background: url('/assets/hero-bg.png') center/cover;
+                    background: url('/lanzante/assets/hero-bg.png') center/cover;
                     opacity: 0.2;
                     filter: grayscale(100%);
                 }

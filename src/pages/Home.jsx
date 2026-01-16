@@ -10,7 +10,7 @@ const Home = () => {
                 <div className="video-bg-placeholder">
                     {/* In established projects, this would be a video. Using high-res image for now */}
                     <div className="hero-image-scale">
-                        <img src="/assets/hero-bg.png" alt="P1 GTR" />
+                        <img src="/lanzante/assets/hero-bg.png" alt="P1 GTR" />
                     </div>
                     <div className="overlay"></div>
                 </div>

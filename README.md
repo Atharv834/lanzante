@@ -1,16 +1,56 @@
-# React + Vite
+# LANZANTE | Historic Motorsport & Engineering
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Lanzante Banner](public/assets/hero-bg.png)
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A premium digital experience for **Lanzante**, verifying the brand's position at the intersection of historic motorsport and cutting-edge engineering. This project implements a high-fidelity "Technical Workshop" design language, featuring split-screen layouts, precise typography, and immersive interactions.
 
-## React Compiler
+**Live Demo:** [https://atharv834.github.io/lanzante/](https://atharv834.github.io/lanzante/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+-   **Core:** React 18, Vite
+-   **Styling:** Vanilla CSS (Custom Design System), CSS Variables
+-   **Animations:** Framer Motion
+-   **Routing:** React Router DOM
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Key Features
+
+### 1. Technical Split-Layouts
+A distinct UX pattern separating context from content, used on technical pages:
+-   **Careers:** Scrollable job manifestos paired with sticky headers.
+-   **Projects:** Filterable bespoke division index with interactive cards.
+-   **Historic:** Department specifications and service protocols.
+
+### 2. Immersive Visuals
+-   **Noise Overlays:** Subtle grain effects to mimic film/analog texture.
+-   **Micro-Interactions:** Gold border reveals, bracket animations, and magnetic buttons.
+-   **Responsive Mobile Menu:** Full-screen overlay with stagaggered animations.
+
+### 3. Engineering-First Aesthetics
+-   **Typography:** Monospace data readouts mixed with classic serif headers.
+-   **Color Palette:** Deep Black (`#0a0a0a`), Tech Gold (`#d4af37`), and Dimmed White.
+
+## Local Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+## Deployment
+
+This project is configured for **GitHub Pages**.
+
+```bash
+# Build and Deploy
+npm run deploy
+```
+
+---
+
+*Concept and Design by Antigravity Agency.*
